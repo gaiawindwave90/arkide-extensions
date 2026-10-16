@@ -1,6 +1,6 @@
 <img
-    src="/favicon.ico"
-    alt="PenguinMod Logo"
+    src="favicon.ico"
+    alt="ArkIDE Logo"
     class="logo"
 />
 
