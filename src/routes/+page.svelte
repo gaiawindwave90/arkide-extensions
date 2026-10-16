@@ -236,14 +236,14 @@
         <p>
             To add an extension to your project, click the "Add to Project" button.
             You can also click the "Copy" button and
-            <a href="/load" target="_blank">load it into ArkIDE</a>
+            <a href="https://gaiawindwave90.github.io/arkide-extensions/load" target="_blank">load it into ArkIDE</a>
             if the former fails.
         </p>
     {:else}
         <p>
             To use some of these extensions in your projects, click the "Copy Link"
             button on an extension and
-            <a href="/load" target="_blank">load it into ArkIDE,</a>
+            <a href="https://gaiawindwave90.github.io/arkide-extensions/load" target="_blank">load it into ArkIDE,</a>
             or click the "Try it out" button to create a new project with the extension.
         </p>
     {/if}
@@ -252,14 +252,14 @@
 <div class="extension-list-controls">
     <button onclick={toggleFilterBar}>
         <img
-            src="/icons/filter.svg"
+            src="https://gaiawindwave90.github.io/arkide-extensions/icons/filter.svg"
             alt="Filters"
             title="Filters"
         />
     </button>
     <div class="extension-list-controls-sorting-selector-image-container-div">
         <img
-            src="/icons/sort.svg"
+            src="https://gaiawindwave90.github.io/arkide-extensions/icons/sort.svg"
             alt="Sort"
             title="Sort using the selector"
         />
@@ -278,13 +278,13 @@
         <button onclick={toggleTestInNewProject}>
             {#if showingTestInNewProject}
                 <img
-                    src="/icons/test-enabled.svg"
+                    src="https://gaiawindwave90.github.io/arkide-extensions/icons/test-enabled.svg"
                     alt={'Currently showing "Test in New Project" link'}
                     title={'Currently showing "Test in New Project" link'}
                 />
             {:else}
                 <img
-                    src="/icons/test-disabled.svg"
+                    src="https://gaiawindwave90.github.io/arkide-extensions/icons/test-disabled.svg"
                     alt={'Currently hiding "Test in New Project" link'}
                     title={'Currently hiding "Test in New Project" link'}
                 />
